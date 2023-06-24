@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- タブレットｃｓｓ読み込み -->
+    <!-- <link rel="stylesheet" href="css/responsive-pad.css" type="text/css" media="screen and (max-width: 768px)"> -->
+    <!-- モバイルｃｓｓ読み込み -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;1,700&family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;1,700&family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@700&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3ca1d4aa94.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- loding画面 -->
+    <div id="loading" class="pixel-spinner">
+        <div class="pixel-spinner-inner"></div>
+    </div>
+
+    <!-- ヘッダー -->
+    <header>
+        <nav class="inner">
+            <h1>MY PORTFOLIO <br>
+                Tatsuya Sasaki
+            </h1>
+            <ul class="header-nav">
+                <li><a href="">Home</a></li>
+                <li><a href="#product">product</a></li>
+                <li><a href="#product">Game</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="main-wrap">
+            <div class="hero-container">
+                <!-- 図形 -->
+                <div id="shape"></div>
+                <!-- 文字 -->
+                <div class="marquee">
+                    <div class="marquee-inner">program program program</div>
+                    <div class="marquee-inner" aria-hidden="true">program program program</div>
+                </div>
+
+                <div class="text__box-1">
+                    <p>CODING - HTML, CSS, JavaScript / Unity C# <br>
+                        progate / dotinstall
+                    </p>
+                </div>
+                <div class="text__box-2">
+                    <h2>プログラマー<br>目指してます</h2>
+                    <p>TATSUYA SASAKI.JP</p>
+                </div>
+            </div>
+
+            <div class="current">
+                <h1>CURRENT</h1>
+                <div class="current__text">
+                    <p>現在転職活動中です。<br>
+                        プログラミングを仕事にしたいと思い、長年勤めた会社を辞め転職を決意<br>
+                        独学でプログラミングを勉強中
+                    </p>
+                    <p>
+                        ゆくゆくはユーザーのニーズに合った物を作るためプログラミングだけではなくデザインやあらゆることに挑戦していきたいと考えています。
+                    </p>
+                </div>
+            </div>
+
+            <div class="past">
+                <h1>PAST</h1>
+                <p>幼少期はピアノを習い
+                    中学時代はバスケ部に所属<br>
+                    高校生からプログラミングに興味を持ち独学で勉強し、ＰＣについて学べる情報大学へ進学<br>
+                    前職は肉体労働なこともあり体力、忍耐力に自信あり
+                </p>
+            </div>
+        </section>
+
+        <section id="product" class="product">
+            <!-- サイドメニュー -->
+            <div class="product-wrap">
+                <div class="side-area">
+                    <h2>product</h2>
+                    <h3>制作物</h3>
+                    <ul class="side-nav">
+                        <li><a id="li-1" href=""></a></li>
+                        <li><a id="li-2" href=""></a></li>
+                        <li><a id="li-3" href=""></a></li>
+                        <li><a id="li-4" href=""></a></li>
+                    </ul>
+                    <h2>Game</h2>
+                    <h3>ゲーム</h3>
+                    <a class="gamelink"
+                        href="https://39527.play.unityroom.com?expires=1686722333&amp;salt=258153718523657461869477303018860113339&amp;sig=3235777e2a30fe293502679cb2d77c1341378c69">
+                        <p>無限こうら</p>
+                    </a>
+                </div>
+
+                <!-- １番外の可視領域 -->
+                <div id="grandparent">
+
+                    <!-- 要素を並べる領域 -->
+                    <div id="parent">
+                        <img id="img-1" src="images/setouchioyster.png" alt="setouchioyster">
+                        <img id="img-2" src="images/isara.png" alt="isara">
+                        <img id="img-3" src="images/dazaihu.png" alt="太宰府天満宮">
+                        <img id="img-4" src="images/tsuruya.png" alt="Tsuruya">
+                    </div>
+
+
+                </div>
+                <!-- 戻るボタン -->
+                <div class="btnBack">
+                    <span><i class="fa-solid fa-circle-chevron-left fa-2xl"></i></span>
+                </div>
+
+                <!-- 進むボタン -->
+                <div class="btnNext">
+                    <span><i class="fa-solid fa-circle-chevron-right fa-2xl"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="profile-wrap">
+                    <figure class="my-img">
+                        <img src="images/Ryo.jpg" alt="">
+                    </figure>
+                    <div class="profile">
+                        <div class="profile__head">
+                            <h2>Profile</h2>
+                            <p>プロフィール</p>
+                        </div>
+                        <div class="profile__info">
+                            <p>佐々木辰也　Tatsuya Sasaki</p>
+                            <p>1988年12月6日|B型|北海道出身<br>
+                                北海道情報大学（情報メディア学科）</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrap">
+                    <ul class="item-list">
+                        <li class="item open1 img-1">
+                            <img src="images/reble.jpg" alt="バイク">
+                        </li>
+                        <li class="item open2 img-2">
+                            <img src="images/guitar.jpg" alt="ギター">
+                        </li>
+                        <li class="item open3 img-3">
+                            <img src="images/denkou.jpg" alt="前職">
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- モーダル -->
+                <div id="modal1">
+                    <h1>バイク遍歴</h1>
+                    <p>免許取得後bandit（スズキ）購入<br>
+                        現在は２台目になるreble250（HONDA）に乗る
+                    </p>
+                    <button id="close1">閉じる</button>
+                </div>
+                <div id="modal2">
+                    <h1>ギター歴</h1>
+                    <p>中学生から始め、主にB'z、 ベンチャーズ、マイケルシェンカー等を演奏する</p>
+                    <button id="close2">閉じる</button>
+                </div>
+                <div id="modal3">
+                    <h1>資格</h1>
+                    <p>2013年　高所作業車　技能講習修了<br>
+                        2013年　玉掛け 技能講習修了<br>
+                        2015年　小型移動式クレーン　技能講習修了<br>
+                        2015年　第２種電気工事士　取得<br>
+                        2019年　刈払機取扱作業者安全衛生教育　安全衛生教育修了<br>
+                        2019年　伐木等の業務（チェーンソー）　特別教育修了<br>
+                        2020年　２級電気工事施工管理技士　取得</p>
+                    <button id="close3">閉じる</button>
+                </div>
+
+                <div id="mask"></div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__inner">
+            <h3><a href="">Home</a></h3>
+            <ul class="product-nav">
+                <h3><a href="#product">product</a></h3>
+                <li><a href=""></a>setouchi</li>
+                <li><a href=""></a>isara</li>
+                <li><a href=""></a>太宰府天満宮</li>
+                <li><a href=""></a>Turuya</li>
+            </ul>
+            <ul class="game-nav">
+                <h3><a href="#product">GAME</a></h3>
+                <li><a
+                        href="https://39527.play.unityroom.com?expires=1686722333&amp;salt=258153718523657461869477303018860113339&amp;sig=3235777e2a30fe293502679cb2d77c1341378c69">無限こうら</a>
+                </li>
+            </ul>
+            <ul class="about-nav">
+                <h3><a href="#about">About</a></h3>
+                <li><a href=""></a>Bike</li>
+                <li><a href=""></a>Guitar</li>
+                <li><a href=""></a>Befor</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
